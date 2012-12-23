@@ -1,0 +1,15 @@
+{application, blake2,
+ [
+  {description, "BLAKE2 hash function NIF"},
+  {vsn, "1.0.0"},
+  {modules, [
+             blake2,
+             hex
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
